@@ -7,11 +7,12 @@
     list-style-type: none;
     font-family: 'Roboto';
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .header {
     display: flex;
-    padding: 24px;
+    padding: 24px 450px;
     background-color: #1f2937;
     align-items: center;
 }
@@ -25,9 +26,42 @@
     font-size: 18px;
     display: flex;
     margin-left: auto;
-    gap: 8px;
+    gap: 20px;
 }
 
-.link {
+a {
     color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px 450px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.hero img {
+    width: 500px;
+}
+
+button {
+    padding: 6px 20px;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 4px;
 }
